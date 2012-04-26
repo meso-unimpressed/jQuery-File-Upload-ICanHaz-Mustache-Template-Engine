@@ -15,6 +15,12 @@ An IcanHaz/Mustache template engine plugin for the [jQuery File Upload](https://
 ## Changelog
 * [CHANGELOG.md](https://github.com/meso-unimpressed/jQuery-File-Upload-ICanHaz-Mustache-Template-Engine/blob/master/CHANGELOG.md)
 
+## Todo for Upcoming Releases
+* Test with [mustache.js](https://github.com/janl/mustache.js)
+* Add compressed and bundled (I18n) scripts
+* Write a example [sinatra](http://www.sinatrarb.com/) application.
+* Write Usage notes.
+
 ## Copyright
 Copyright 2012, MESO Web Scapes - Mathias Wollin
 [http://meso.net](http://meso.net)
