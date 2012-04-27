@@ -12,6 +12,27 @@ An IcanHaz/Mustache template engine plugin for the [jQuery File Upload](https://
 * I18n library
   (e.g. https://github.com/fnando/i18n-js/blob/master/vendor/assets/javascripts/i18n.js )
 
+## Development notes
+
+### How to add vendor scripts as git subtree module?
+
+#### I18n-js
+* Add the remote repository
+
+        git remote add -f i18n-js git://github.com/fnando/i18n-js.git
+
+* Merge with --no-commit
+
+        git merge -s ours --no-commit i18n-js/master
+
+* Get module from tree
+
+        git read-tree --prefix=scripts/src/vendor/i18n-js/ -u i18n-j1/master:vendor/assets/javascripts/
+
+* Pulling in changes
+
+        git pull -s subtree i18n-js master
+
 ## Changelog
 * [CHANGELOG.md](https://github.com/meso-unimpressed/jQuery-File-Upload-ICanHaz-Mustache-Template-Engine/blob/master/CHANGELOG.md)
 
