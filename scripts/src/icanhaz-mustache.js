@@ -1,5 +1,5 @@
 /*
- * jQuery File Upload ICanHaz/Mustache Template Engine Plugin 0.1.1
+ * jQuery File Upload ICanHaz/Mustache Template Engine Plugin 0.1.2
  * https://github.com/meso-unimpressed/jQuery-File-Upload-ICanHaz-Mustache-Template-Engine
  * https://github.com/blueimp/jQuery-File-Upload
  *

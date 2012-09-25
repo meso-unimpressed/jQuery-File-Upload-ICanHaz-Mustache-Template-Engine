@@ -33,12 +33,18 @@ An IcanHaz/Mustache template engine plugin for the [jQuery File Upload](https://
 
         git pull -s subtree i18n-js master
 
+### How to run the buildr compressor/bundler?
+* Install buildr: [https://github.com/balupton/buildr.npm](https://github.com/balupton/buildr.npm)
+
+* Run buildr:
+
+        coffee buildr.coffee
+
 ## Changelog
 * [CHANGELOG.md](https://github.com/meso-unimpressed/jQuery-File-Upload-ICanHaz-Mustache-Template-Engine/blob/master/CHANGELOG.md)
 
 ## Todo for Upcoming Releases
 * Test with [mustache.js](https://github.com/janl/mustache.js)
-* Add compressed and bundled (I18n) scripts
 * Write a example [sinatra](http://www.sinatrarb.com/) application.
 * Write Usage notes.
 
